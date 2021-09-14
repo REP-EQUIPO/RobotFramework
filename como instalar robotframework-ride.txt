@@ -1,0 +1,35 @@
+TEST AUTOMATICOS 
+
+Link 
+https://atos365.sharepoint.com/sites/390000615/Knowledge%20Academy/Forms/AllItems.aspx?csf=1&web=1&e=fZQm0X&cid=a9f80729%2De7e4%2D46e2%2D99ea%2D53bf0dd226af&FolderCTID=0x012000FF65ACDF0A9FB54DAAD666DAA461314F&viewid=30d56d04%2D1520%2D466f%2D8450%2D61c5306049d0&id=%2Fsites%2F390000615%2FKnowledge%20Academy%2FRUN%20Non%20SAP%2FKT%20and%20Docs%2FCross%2FSBMB%5FAutomation
+
+Instalar como administrador python 3.9 (marcar que agregue python39 al path) 
+
+abro cmd 
+ - Python --version
+(debería devolver la versión de python y sabemos que lo instalamos ok) 
+
+-instalamos la librería para interface grafica (creo)
+pip install -U wxPython
+
+-instalar robotframework
+pip install robotframework
+
+-comprobar que instalamos ok 
+robot --version 
+(sabemos que está instalado ok)
+
+rebot --version  
+(sabemos que está instalado ok)
+
+-instalamos las librerias de selenium 
+pip install robotframework-seleniumlibrary
+
+-instalar ride 
+pip install https://github.com/robotframework/RIDE/releases/download/v2.0b1/robotframework-ride-2.0b1.tar.gz
+(antes de terminar sale una ventana que pregunta si queres hacer un acceso directo en el escritorio, tenes 7 segundos para responder que si)
+
+por las dudas 
+pip install psutil 
+(lo pide)
+
